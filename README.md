@@ -71,7 +71,7 @@ Build the mess → Discover (search as the user + audit + DSPM) → Protect (lab
 2. **[Protect: Labels, Custom Detectors, Auto-Labelling and DLP](02-protect.md)**: six labels, three regex detectors, auto-labelling and two DLP policies
 3. **[Remediate & Prove: From 6 Exposed Files to 0, and Making It Impossible to Repeat](03-remediate-and-prove.md)**: the fixes, the re-tests, stakeholder pushback and an external accountant
 
-**Evidence:** [`evidence/risk-register.xlsx`](evidence/risk-register.xlsx) (24 findings with severity, root cause, fix and residual risk) · [`evidence/audit-evidence.xlsx`](evidence/audit-evidence.xlsx) (every fix traced in the audit log)
+**Evidence:** [`evidence/risk-register.xlsx`](risk-register.xlsx) (24 findings with severity, root cause, fix and residual risk) · [`evidence/audit-evidence.xlsx`](audit-evidence.xlsx) (every fix traced in the audit log)
 
 ---
 
