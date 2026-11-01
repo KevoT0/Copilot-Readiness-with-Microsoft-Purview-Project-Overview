@@ -1,6 +1,3 @@
-# Copilot-Readiness-with-Microsoft-Purview-Project-Overview
-Finding and fixing oversharing before Microsoft 365 Copilot does: the problem, the approach and the before/after results
-
 # Copilot Readiness with Microsoft Purview: Finding and Fixing Oversharing Before AI Does
 
 **A junior warehouse employee could search the company's SharePoint and find payroll, medical notes and a secret redundancy plan.** Microsoft 365 Copilot would have found them too. This project builds that company, proves the exposure, fixes it with Microsoft Purview and SharePoint controls, and proves the fix.
@@ -26,7 +23,7 @@ The lesson: **Copilot can reach everything the user can reach.** It does not cre
 | Built-in detectors don't know company-specific data | Three custom regex detectors (employee ID, NI number, sort code) tested to 12/12 |
 | Copilot summarises whatever it can open | A DLP policy that stops Copilot using Payroll, HR Only and Board Only files |
 | Fixes get undone by the next "quick share" | Owner-only sharing, Anyone links off, default link set to Specific people |
-| "We fixed it" with no evidence | Before/after tests, a positive control, a 24-row risk register and an audit evidence workbook |
+| "We fixed it" with no evidence | Before/after tests, a positive control, a 25-row risk register and an audit evidence workbook |
 
 ---
 
@@ -71,7 +68,9 @@ Build the mess → Discover (search as the user + audit + DSPM) → Protect (lab
 2. **[Protect: Labels, Custom Detectors, Auto-Labelling and DLP](02-protect.md)**: six labels, three regex detectors, auto-labelling and two DLP policies
 3. **[Remediate & Prove: From 6 Exposed Files to 0, and Making It Impossible to Repeat](03-remediate-and-prove.md)**: the fixes, the re-tests, stakeholder pushback and an external accountant
 
-**Evidence:** [`evidence/risk-register.xlsx`](risk-register.xlsx) (24 findings with severity, root cause, fix and residual risk) · [`evidence/audit-evidence.xlsx`](audit-evidence.xlsx) (every fix traced in the audit log)
+**Evidence:** [`evidence/risk-register.xlsx`](evidence/risk-register.xlsx) (25 findings with severity, root cause, fix and residual risk) · [`evidence/audit-evidence.xlsx`](evidence/audit-evidence.xlsx) (every fix traced in the audit log)
+
+![Risk register: 25 findings, 8 high severity](49.png)
 
 ---
 
