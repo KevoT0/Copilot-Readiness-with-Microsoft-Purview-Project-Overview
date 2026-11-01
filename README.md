@@ -72,6 +72,8 @@ Build the mess → Discover (search as the user + audit + DSPM) → Protect (lab
 
 ![Risk register: 25 findings, 8 high severity](49.png)
 
+![Audit evidence: every fix traced in the Purview audit log](50.png)
+
 ---
 
 ## Key design decisions (what tutorials skip)
